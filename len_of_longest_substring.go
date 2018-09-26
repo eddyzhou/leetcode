@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func lengthOfLongestSubstring(s string) int {
 	m := make(map[string]int)
 	var start, max int
@@ -20,13 +18,13 @@ func lengthOfLongestSubstring(s string) int {
 	return max
 }
 
-func main() {
-	s1 := "abcabcbb"
-	fmt.Println(lengthOfLongestSubstring(s1))
-	s2 := "bbbbb"
-	fmt.Println(lengthOfLongestSubstring(s2))
-	s3 := "pwwkew"
-	fmt.Println(lengthOfLongestSubstring(s3))
-	s4 := "abcdefg"
-	fmt.Println(lengthOfLongestSubstring(s4))
-}
+//func main() {
+//	s1 := "abcabcbb"
+//	fmt.Println(lengthOfLongestSubstring(s1))
+//	s2 := "bbbbb"
+//	fmt.Println(lengthOfLongestSubstring(s2))
+//	s3 := "pwwkew"
+//	fmt.Println(lengthOfLongestSubstring(s3))
+//	s4 := "abcdefg"
+//	fmt.Println(lengthOfLongestSubstring(s4))
+//}
